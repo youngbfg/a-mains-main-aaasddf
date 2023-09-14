@@ -1,0 +1,80 @@
+.card {
+    display: grid;
+    align-items: center;
+    padding: 10px  20px;
+    cursor: default;
+    border: solid white;
+    border-radius: 30px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+    
+}
+
+.cardImage {
+    flex-shrink: 0;
+    position: sticky;
+    height: 250px;
+    cursor: default;
+    object-position: center;
+    width: 100%;
+    max-height: 100%;
+}
+
+.card img {
+    border-radius: 10px;
+    object-position: 50% 50%;
+    width: auto;
+}
+
+.time{
+    margin-top: 10px;
+    color: gray;
+    font-style: italic;
+    cursor: default;
+}
+
+.cardBody p {
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 23px;
+    cursor:default;
+}
+
+.cardBody h3 {
+    cursor: default;
+    margin-top: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 28px;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    background-color: #003c84;
+    border: none;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    font-weight: bold;
+}
+
+.icons{
+    margin-top: -40px;
+    color: gray;
+    font-size: 25px;
+}
+
+.body{
+    margin-top: 10px;
+}

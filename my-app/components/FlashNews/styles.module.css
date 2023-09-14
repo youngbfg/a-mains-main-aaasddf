@@ -1,0 +1,100 @@
+.card {
+    display: flex;
+    
+    align-items: left;
+    margin-top: 40px;
+    padding: 80px 80px;
+    cursor: default;
+    border-radius: 10px;
+    object-position: 50% 50%;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.cardImage {
+    display: flex;
+    flex-shrink: 0;
+    position: sticky;
+    height: 400px;
+    cursor: default;
+    object-position: center;
+    width: 50%;
+    max-height: 100%;
+}
+
+.card img {
+    display: grid;
+    border-radius: 10px;
+    object-position: 50% 50%;
+    width: auto;
+}
+
+.cardBody {
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+.cardBody p {
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 20px;
+    cursor: default;
+}
+
+.cardBody h3 {
+    cursor: default;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 37px;
+}
+
+.buttons {
+    display: grid;
+    display: block;
+    margin-left: auto;
+    margin-top: 40px;
+    background-color: #003c84;
+    border: none;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    font-weight: bold;
+}
+
+.time{
+    color: gray;
+    cursor: default;
+    font-style: italic;
+}
+
+
+
+@media (min-width: 1px) and (max-width: 1600px) {
+    .card {
+        display: grid;
+        grid-template-columns: auto;
+        }
+
+    .cardImage{
+        height: 300px;
+        width: auto;
+        cursor: default;
+        object-position: center;
+        width: 100%;
+        max-height: 100%;
+        }
+    }
+
+

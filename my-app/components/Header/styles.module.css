@@ -1,0 +1,16 @@
+.header {
+ 
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  /* margin: auto; */
+  width: 80%;
+  margin: 0 200px;
+}
+
+.logo {
+  font-size: 44px;
+  font-weight: 900;
+  color: #c7352f;
+  border-bottom: 5px solid #c7352f;
+}
