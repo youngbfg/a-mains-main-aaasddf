@@ -1,12 +1,17 @@
 .card {
     display: grid;
+   
     align-items: center;
-    padding: 10px  20px;
+    padding: 20px  20px;
     cursor: default;
     border: solid white;
-    border-radius: 30px;
-    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
-    
+    border-radius: 23px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.3);
+    padding: 3px 3px 30px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
 }
 
 .cardImage {
@@ -14,6 +19,7 @@
     position: sticky;
     height: 250px;
     cursor: default;
+    margin-right: 200px;
     object-position: center;
     width: 100%;
     max-height: 100%;
@@ -27,9 +33,10 @@
 
 .time{
     margin-top: 10px;
-    color: gray;
+    color: #818FA1;
     font-style: italic;
     cursor: default;
+    font-weight: bold;
 }
 
 .cardBody p {
@@ -71,10 +78,21 @@
 
 .icons{
     margin-top: -40px;
-    color: gray;
+    color: #818FA1;
     font-size: 25px;
 }
 
 .body{
     margin-top: 10px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 874px) {
+    .card  {
+       
+        margin-right: auto;
+        position: sticky;
+        width: 83%;
+       
+    }
 }

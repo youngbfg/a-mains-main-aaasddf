@@ -10,14 +10,16 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   cursor: default;
   gap: 20px 90px;
-  padding: 10px 80px 20px;
+  margin-left: auto;
+  padding: 10px 30px 20px;
 }
 
 .cards {
   display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   cursor: default;
   gap: 20px 90px;
+  padding: 10px 30px 20px;
 } 
 
 .cardImage {

@@ -15,11 +15,10 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 import {
- IoIosArrowBack
+  IoIosArrowBack
 } from "react-icons/io";
 import "moment/locale/tr";
 import Link from 'next/link'
-import { color } from "@mui/system";
 
 async function getPost(id) {
   try {
@@ -29,6 +28,7 @@ async function getPost(id) {
     throw new Error(error);
   }
 }
+
 async function Page(params) {
   const { id, title, body, userId } = await getPost(params.id);
   if (!title) {
@@ -36,16 +36,15 @@ async function Page(params) {
   }
 }
 
-// test
 export default function Pages({ id, userId }) {
   return (
     <div className={styles.blogContainer}>
       <div className={styles.feed}>
         <Link href={`/`}>
-           <IoIosArrowBack color="#003c84"/>
+          <IoIosArrowBack color="#003c84"/>
           <font color="#003c84">Haberler</font>
         </Link>
-       
+      
       </div>
       <div className={styles.cardImage}>
         <Image

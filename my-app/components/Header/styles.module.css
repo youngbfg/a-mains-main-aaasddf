@@ -1,11 +1,8 @@
 .header {
- 
-  align-items: center;
+  
   justify-content: space-between;
-  text-align: center;
-  /* margin: auto; */
-  width: 80%;
-  margin: 0 200px;
+  margin: auto;
+  margin-top: 80px;
 }
 
 .logo {
@@ -14,3 +11,17 @@
   color: #c7352f;
   border-bottom: 5px solid #c7352f;
 }
+
+@media screen and (min-width: 320px) and (max-width: 874px) {
+  .logo {
+    margin-right: auto;
+   
+  }
+
+  .header {
+    margin-right: auto;
+  
+  }
+}
+
+
